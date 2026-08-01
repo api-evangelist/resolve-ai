@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://resolve.ai/security
+url: https://resolve.ai/security
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+evidence:
+- source: https://resolve.ai/security
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa
+  - trust center
+  - gdpr

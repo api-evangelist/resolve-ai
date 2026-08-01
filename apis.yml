@@ -1,8 +1,15 @@
 aid: resolve-ai
 name: Resolve AI
-description: 'Resolve AI is a company surfaced as a portfolio company of greylock, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Resolve AI builds AI agents (an "AI SRE") that run production software
+  for enterprise engineering teams. Its agents automatically triage and investigate
+  alerts, perform root-cause analysis, and troubleshoot incidents within minutes,
+  handling on-call rotations, incident response, and scheduled operational tasks so
+  engineers can focus on building. The platform connects read-only to a team''s observability
+  stack (logs, metrics, traces, dashboards), code repositories, and infrastructure,
+  and lets teams embed tribal knowledge and build custom agents via MCP, APIs, and
+  a Skills framework. It ships a secure gateway (the Resolve satellite), SAML SSO,
+  RBAC, and enterprise controls, and is used by teams at Coinbase, DoorDash, Expedia,
+  Snowflake, and MongoDB. Backed by Greylock and Lightspeed Venture Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/resolve-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,32 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media.website-prod.resolve.ai/Big_Resolve_AI_c60042174a.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Artificial Intelligence
+- Site Reliability Engineering
+- Observability
+- Incident Response
+- DevOps
+- On-Call
+- AI Agents
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.resolve.ai
+- type: DeveloperPortal
+  url: https://docs.resolve.ai
+- type: Documentation
+  url: https://docs.resolve.ai
+- type: GettingStarted
+  url: https://docs.resolve.ai/get-started
+- type: Blog
+  url: https://resolve.ai/blog
+- type: Pricing
+  url: https://resolve.ai/pricing
+- type: SignUp
+  url: https://app.resolve.ai
+- type: TermsOfService
+  url: https://resolve.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://resolve.ai/privacy-policy
+- type: Careers
+  url: https://resolve.ai/careers
+- type: Compliance
+  url: https://resolve.ai/security
+- type: TrustCenter
+  url: security/resolve-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/resolve-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

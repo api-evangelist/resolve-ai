@@ -63,6 +63,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/resolve-ai-plans-pricing.yml
 - type: Website
   url: https://www.resolve.ai
 - type: DeveloperPortal
